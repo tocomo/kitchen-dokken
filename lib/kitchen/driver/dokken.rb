@@ -58,7 +58,7 @@ module Kitchen
       default_config :tmpfs, {}
       default_config :volumes, nil
       default_config :write_timeout, 3600
-      default_config :pull_platform_image, true
+      default_config :pull_platform_image, false
 
       # (see Base#create)
       def create(state)
